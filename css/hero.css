@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* #hero {
+    display: flex;
+    align-items: center;
+} */
+
+
+#hero {
+    background-image: url(../hero4.jpg);
+    /* setting width and height */
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+    overflow: hidden;
+    background-size: cover;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    /* color: white; */
+}
+
+#hero-overlay {
+    background-color: rgb(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.font-one {
+    font-family: "nunito", sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.font-two {
+    font-family: "nunito", sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #C6C6C7;
+
+}
+
+.hero-search {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-container {
+    background-color: white;
+    padding: 5px px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.search-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 12px;
+    outline: none;
+}
+
+.dropdown {
+    background-color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.dropdown hover {
+    background-color: gray;
+}
+
+.btn-search {
+    background-color: #89BA16;
+    /* width: 100%; */
+    padding: 10px;
+    border: none;
+    border: 1px solid #89BA16;
+    border-radius: 5px;
+    font-size: 12px;
+    color: white;
+    outline: none;   
+}
+
+/* doint the trending part of the hero section */
+#hero-trending {
+    margin-right: 350px;
+    width: 300px;
+    height: 80px;
+
+}
+
+
+
