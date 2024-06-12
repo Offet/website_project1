@@ -1,6 +1,7 @@
-body {
+* body {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 /* #hero {
@@ -10,26 +11,32 @@ body {
 
 
 #hero {
-    background-image: url(../hero4.jpg);
+    background-image: url(../assets/images/hero3.jpg);
     /* setting width and height */
     width: 100vw;
-    height: 100vh;
+    height: 125vh;
     background-attachment: fixed;
     overflow: hidden;
     background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
-    /* color: white; */
-}
+    justify-content:center;
+    align-items: center;
+    /* align-content: center; */
+    color: white;
+    /* margin-bottom: 100px; */
+    /* margin-right: 0px; */
+    /* margin-top: -600px; */
+} 
 
 #hero-overlay {
     background-color: rgb(0, 0, 0, 0.6);
+    background-size: contain;
     position: absolute;
     top: 0;
     color: white;
-    height: 100%;
-    width: 100%;
+    height: 125vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,18 +49,19 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-bottom: 50px;
+    /* margin-bottom: 100px; */
+    /* margin-top: 100px; */
 }
 
 .font-one {
     font-family: "nunito", sans-serif;
-    font-size: 3rem;
+    font-size: 3.9rem;
     font-weight: bold;
 }
 
 .font-two {
     font-family: "nunito", sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     font-weight: bold;
     color: #C6C6C7;
 
@@ -64,6 +72,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    column-gap: 40px;
 }
 
 .search-container {
@@ -72,13 +81,15 @@ body {
     border-radius: 5px;
     display: flex;
     align-items: center;
+    
 }
 
 .search-container input[type="text"] {
-    width: 100%;
+    width: 300px;
+    height: 33px;
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 7px;
     font-size: 12px;
     outline: none;
 }
@@ -90,6 +101,8 @@ body {
     border-radius: 5px;
     cursor: pointer;
     margin-left: 10px;
+    width: 300px;
+    height: 35px;
 }
 
 .dropdown hover {
@@ -98,11 +111,12 @@ body {
 
 .btn-search {
     background-color: #89BA16;
-    /* width: 100%; */
+    width: 300px;
+    height: 52px;
     padding: 10px;
     border: none;
     border: 1px solid #89BA16;
-    border-radius: 5px;
+    border-radius: 6px;
     font-size: 12px;
     color: white;
     outline: none;   
@@ -110,7 +124,8 @@ body {
 
 /* doint the trending part of the hero section */
 #hero-trending {
-    margin-right: 350px;
+    display: flex;
+    margin-right: 500px;
     width: 300px;
     height: 80px;
     /* color: #89BA16; */

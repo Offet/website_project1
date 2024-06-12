@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/hero.css">
     <link rel="stylesheet" href="./css/under_about.css">
+    <link rel="stylesheet" href="./css/sign_up.css">
     <title>Jobiremote</title>
 </head>
 <body>
@@ -13,6 +14,7 @@
         <div>
             
             <div id="nav-links">
+                <span>JOBIREMOTE</span>
                 <span>Home</span>
                 <span>About us</span>
                 <span>Job Listings</span>
@@ -56,42 +58,63 @@
                         </ul>
                     </span>
                     <button class="btn-search">Search Job</button>
-            </div>
-            <span><h5>Trending Keywords:</h5></span>
-            <!-- <div id="hero-trending"> -->
-                
+            </div >
+            <div id="hero-trending">
+                <span><h5>Trending Keywords:</h5></span>
                 <span>
-                    
                     <button class="trending-button">UI Designer</button>
                     <button class="trending-button">Python</button>
                     <button class="trending-button">Developer</button>
                 </span>
-            <!-- </div> -->
+            </div>
         </div>
 
     </section>
     <!-- adding section for job stats -->
-    <section id="stats">
-        <div id="stat-overlay">
-            <h3>Jobiremote Site Stats</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita unde officiis recusandae sequi excepturi corrupti.</p>
-            <br>
-            <div class="stat-figures">
-                <span>
-                    <h3>1,930</h3>
-                </span>
-                <span>
-                    <h3>59</h3>
-                </span>
-                <span>
-                    <h3>120</h3>
-                </span>
-                <span>
-                    <h3>550</h3>
-                </span>
-                
+    <section id="container">
+        <div id="stats-overlay">
+            <div class="stats-header">
+                <span>JobBoard Site Stats</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita unde officiis recusandae sequi excepturi corrupti.</p>
+            </div>
+            <div class="content">
+                <div class="stats">
+                  <p class="figures">1,930</p>
+                  <p class="under">Candidates</p>
+                </div>
+                <div class="stats">
+                  <p class="figures">54</p>
+                  <p class="under">Jobs Posted</p>
+                </div>
+                <div class="stats">
+                  <p class="figures">120</p>
+                  <p class="under">Jobs Filled</p>
+                </div>
+                <div class="stats">
+                  <p class="figures">550</p>
+                  <p class="under">Companies</p>
+                </div>
             </div>
             
+        </div>
+    </section>
+    <!-- section for jobs listed on hold  -->
+    <section id="jobs-listed">
+        <div>
+            <p>Jobs Listed</p>
+            <div>
+                <span></span>
+            </div>
+        </div>
+    </section>
+    <!-- section created for looking for a job? -->
+    <section id="sign-up">
+        <h3>Looking For A Job?</h3>
+        <div>
+            <span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit tempora adipisci impedit.</p>
+                <button>Sign Up</button>
+            </span>
         </div>
     </section>
 </body>
