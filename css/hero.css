@@ -35,6 +35,7 @@ body {
     justify-content: center;
     align-items: center;
     row-gap: 20px;
+    z-index: 0;
 }
 
 #header {
@@ -112,7 +113,7 @@ body {
     margin-right: 350px;
     width: 300px;
     height: 80px;
-
+    /* color: #89BA16; */
 }
 
 
