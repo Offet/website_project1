@@ -7,7 +7,7 @@
 
 /* Styles the navigation bar logo */
 #nav-logo {
-    width: 150px /* to set the width and height later*/
+    width: 150px; /* to set the width and height later*/
 }
 
 /* working on the nav now */
@@ -18,8 +18,8 @@ nav {
     padding: 10px 20px;
     width: 100vw;
     position: fixed;
-    color: white;
-    z-index: 300;
+    color: white; 
+    z-index: 500;
     
 }
 
